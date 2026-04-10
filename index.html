@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <title>Yerkin Amanzhol - SOC Analyst</title>
+        
+<script type="module">
+import init, * as bindings from '/my-rust-pwa-b88d809f798c54b6.js';
+const wasm = await init({ module_or_path: '/my-rust-pwa-b88d809f798c54b6_bg.wasm' });
+
+
+window.wasmBindings = bindings;
+
+
+dispatchEvent(new CustomEvent("TrunkApplicationStarted", {detail: {wasm}}));
+
+</script>
+        <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="modulepreload" href="/my-rust-pwa-b88d809f798c54b6.js" crossorigin="anonymous" integrity="sha384-RUa0Dfoh/4wiqAdTTExizSRehX72K+eN65LTWoH3aVikj0CsRSmFP9T/E6pKaxRR"><link rel="preload" href="/my-rust-pwa-b88d809f798c54b6_bg.wasm" crossorigin="anonymous" integrity="sha384-/Ayl6bE5fkvAMbZnx8Cz3+HI+FwK9rqKyPPzSj5XWXphCepckCUcwrrtnmChfPF1" as="fetch" type="application/wasm"></head>
+    <body class="bg-slate-900">
+    </body>
+</html>
